@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply font-DMsans;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+    .nav__links--mobile {
+        @apply text-[0.9375rem] font-bold tracking-[0.125rem] uppercase;
+    }
+
+    .nav__links--desktop {
+        @apply text-xs font-bold tracking-[0.125rem] uppercase;
+    }
+
+    .nav__button--mobile {
+        @apply bg-black text-white text-[0.9375rem] font-bold w-[19.375rem] h-12 tracking-[0.15625rem] uppercase;
+    }
+
+    .nav__button--desktop {
+        @apply hidden md:block bg-black text-white text-xs font-bold w-[9.875rem] h-10 tracking-[0.15625rem] uppercase;
+    }
+
+    .title__mobile {
+        @apply text-white text-[2rem] font-bold tracking-[0.20831rem] uppercase;
+    }
+
+    .paragraph__mobile {
+        @apply text-white text-[0.9375rem] opacity-[0.6000000238418579] mt-4;
+    }
+
+    .invite__button {
+        @apply text-white text-[0.75rem] font-bold uppercase tracking-[0.125rem] mr-[1.12rem];
+    }
 }
