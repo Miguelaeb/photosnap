@@ -4,7 +4,7 @@ export default function Main() {
     return (
         <div>
             <div>
-                <img className=" w-full lg:w-[60%]" src="/images/Bitmap.png" alt="river" />
+                <img src="/images/Bitmap.png" alt="river" />
 
                 <div className=" relative bg-black pt-[4.5rem] pl-[2.06rem] pb-[4.5rem] pr-6">
                     <div className=" line"></div>
