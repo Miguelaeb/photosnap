@@ -30,11 +30,27 @@
         @apply text-white text-[2rem] font-bold tracking-[0.20831rem] uppercase;
     }
 
+    .title__mobile--stories {
+        @apply text-black text-[2rem] font-bold tracking-[0.20831rem] uppercase;
+    }
+
     .paragraph__mobile {
         @apply text-white text-[0.9375rem] opacity-[0.6000000238418579] mt-4;
     }
 
-    .invite__button {
+    .paragraph__mobile--stories {
+        @apply text-black text-[0.9375rem] opacity-[0.6000000238418579] mt-4;
+    }
+
+    .btn__invite {
         @apply text-white text-[0.75rem] font-bold uppercase tracking-[0.125rem] mr-[1.12rem];
     }
+
+    .btn__invite--stories {
+        @apply text-black text-[0.75rem] font-bold uppercase tracking-[0.125rem] mr-[1.12rem];
+    }
 }
+
+.custom-gradient {
+    background: linear-gradient(27deg, #FFC593 0%, #BC7198 51.95%, #5A77FF 100%);
+  }
