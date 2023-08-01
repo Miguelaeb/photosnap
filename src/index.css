@@ -10,6 +10,10 @@
 }
 
 @layer components {
+    .line {
+        @apply absolute top-0 custom-gradient w-32 h-[0.375rem];
+    }
+
     .nav__links--mobile {
         @apply text-[0.9375rem] font-bold tracking-[0.125rem] uppercase;
     }

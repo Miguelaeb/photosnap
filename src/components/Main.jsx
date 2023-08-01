@@ -4,10 +4,10 @@ export default function Main() {
     return (
         <div>
             <div>
-                <img src="/images/Bitmap.png" alt="river" />
+                <img className=" w-full lg:w-[60%]" src="/images/Bitmap.png" alt="river" />
 
                 <div className=" relative bg-black pt-[4.5rem] pl-[2.06rem] pb-[4.5rem] pr-6">
-                    <div className=" absolute top-0 custom-gradient w-32 h-[0.375rem]"></div>
+                    <div className=" line"></div>
                     <h1 className=" title__mobile">
                         Create and share your photo stories.
                     </h1>
